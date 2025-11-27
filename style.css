@@ -115,7 +115,7 @@ body{
   gap:18px;
 }
 
-.top h2{ margin:0; color:var(--accent) }
+top h2{ margin:0; color:var(--accent) }
 
 .about p{
   margin:0;
