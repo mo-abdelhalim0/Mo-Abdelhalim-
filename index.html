@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mohamed Abdelhalim — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="avatar">
+        <span>M A</span>
+      </div>
+      <h1 class="name">Mohamed Abdelhalim</h1>
+      <p class="role">Pharmacist · Data Analyst · App Creator · Project Manager</p>
+
+      <div class="card contact-card">
+        <h3>Contact</h3>
+        <p class="contact-item"><strong>Email:</strong><br><a href="mailto:mo.abdelhalim025@gmail.com">mo.abdelhalim025@gmail.com</a></p>
+        <p class="contact-item"><strong>Phone:</strong><br><a href="tel:+201010612091">01010612091</a></p>
+      </div>
+
+      <div class="card education-card">
+        <h3>Education</h3>
+        <p><strong>Bachelor</strong> — Pharmacy</p>
+        <p><strong>Master</strong> — Health Technology (in progress)</p>
+      </div>
+
+      <div class="card skills-card">
+        <h3>Skills</h3>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Dart</li>
+          <li>Python</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+
+      <footer class="sidebar-footer">
+        <small>Quality Control Analyst · Researcher</small>
+      </footer>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+      <header class="top">
+        <h2>About Me</h2>
+      </header>
+
+      <section class="about card">
+        <p>
+          I am a pharmacist with a background in quality control and an active interest in data analysis and app development.
+          I build tools and applications that help teams make data-driven decisions and improve processes in healthcare and research.
+          Currently completing a Master in Health Technology while working on projects combining analytics and mobile apps.
+        </p>
+      </section>
+
+      <section class="services">
+        <h2>What I Do</h2>
+        <div class="grid">
+          <div class="service card">
+            <h4>Data Analysis</h4>
+            <p>Analyze laboratory and clinical data, produce reports, and visualize results using Python and SQL.</p>
+          </div>
+
+          <div class="service card">
+            <h4>Quality Control</h4>
+            <p>Perform QC workflows, ensure product specifications, and document findings for regulatory compliance.</p>
+          </div>
+
+          <div class="service card">
+            <h4>App Development</h4>
+            <p>Create cross-platform apps with Dart (Flutter) and prototypes to streamline workflows and reporting.</p>
+          </div>
+
+          <div class="service card">
+            <h4>Project Management</h4>
+            <p>Lead projects from idea to delivery — planning, coordinating teams, and ensuring timely outcomes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>Selected Projects</h2>
+        <div class="grid">
+          <div class="project card">
+            <h4>Pharma QC Dashboard</h4>
+            <p>A dashboard that aggregates QC test runs, highlights out-of-spec events, and exports reports.</p>
+          </div>
+
+          <div class="project card">
+            <h4>Mobile Data Logger</h4>
+            <p>Flutter app that collects field data, syncs to a MySQL backend, and visualizes trends for researchers.</p>
+          </div>
+
+          <div class="project card">
+            <h4>Automated Report Generator</h4>
+            <p>Python tool that automates summary reports from raw instrument output and saves PDF results.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact card">
+        <h2>Get In Touch</h2>
+        <p>If you'd like to collaborate, hire me, or ask about a project, email me or call:</p>
+        <p><strong>Email:</strong> <a href="mailto:mo.abdelhalim025@gmail.com">mo.abdelhalim025@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+201010612091">01010612091</a></p>
+      </section>
+
+      <footer class="site-footer">
+        <small>© <span id="year"></span> Mohamed Abdelhalim — All rights reserved.</small>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // small script to set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
